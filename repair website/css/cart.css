@@ -1,0 +1,45 @@
+   .right {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0);
+    display: none; 
+    z-index: 1; 
+}
+    .right:hover{
+        background-color: aquamarine;
+}
+        footer {
+        background-color: #0a0852;
+        color: #fff; 
+        padding: 20px;
+        text-align: center;
+    }
+        .row{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .in{
+            display: flex;
+        }
+        .in input[type="number"]{
+            margin-right: 10px;
+        }
+        button{
+            background-color: rgb(45, 45, 159);
+            color: white;
+            border-radius: 10px;
+            border: 0px;
+            width: 90px;
+            height: 30px;
+        }
+        .flex{
+            display: flex;
+        }
+        .left{
+            flex: 1;
+        }
